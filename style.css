@@ -15,12 +15,23 @@
   margin: 0;
   padding: 0; }
 
+@font-face {
+  font-family: "MetalMania-Regular";
+  src: url("fonts/MetalMania-Regular.ttf")
+}
+
 body {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 14px; }
 
-h1,
-h2,
+h1 {
+  font-family: "MetalMania-Regular", sans-serif;
+  color: #34b4e4;
+  font-size: 144px},
+h2 {
+  font-family: "MetalMania-Regular", sans-serif;
+  color: #34b4e4;
+  font-size: 144px},
 h3,
 h4,
 h5,
@@ -558,7 +569,7 @@ img {
     width: 100%; }
     .single-hero-slide .hero-slides-content h6 {
       font-size: 18px;
-      color: #fff;
+      color: #34b4e4;
       letter-spacing: 20px;
       text-transform: uppercase;
       margin-bottom: 20px;
@@ -566,16 +577,38 @@ img {
       @media only screen and (max-width: 767px) {
         .single-hero-slide .hero-slides-content h6 {
           letter-spacing: 5px; } }
+        .single-hero-slide .hero-slides-content h1 {
+          position: relative;
+          z-index: 1;
+          font-family: "MetalMania-Regular", sans-serif;
+          font-size: 100px;
+          color: #34b4e4;
+          margin-bottom: 0;
+          font-weight: 500;
+          display: block;
+          text-transform: capitalize;
+          letter-spacing: 20px;
+          overflow: hidden; }
+          .single-hero-slide .hero-slides-content h1 span {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            color: rgba(52, 180, 228, 0.2);
+            -webkit-animation: textsonar 8s linear infinite;
+            animation: textsonar 8s linear infinite; }
     .single-hero-slide .hero-slides-content h2 {
       position: relative;
       z-index: 1;
+      font-family: "MetalMania-Regular", sans-serif;
       font-size: 60px;
-      color: #ffffff;
+      color: #34b4e4;
       margin-bottom: 0;
       font-weight: 400;
       display: block;
       text-transform: capitalize;
-      letter-spacing: 30px;
+      letter-spacing: 20px;
       overflow: hidden; }
       .single-hero-slide .hero-slides-content h2 span {
         position: absolute;
@@ -583,7 +616,7 @@ img {
         width: 100%;
         height: 100%;
         left: 0;
-        color: rgba(255, 255, 255, 0.15);
+        color: rgba(52, 180, 228, 0.1515);
         -webkit-animation: textsonar 6s linear infinite;
         animation: textsonar 6s linear infinite; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
