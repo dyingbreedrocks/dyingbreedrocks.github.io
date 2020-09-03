@@ -581,13 +581,13 @@ img {
           position: relative;
           z-index: 1;
           font-family: "MetalMania-Regular", sans-serif;
-          font-size: 100px;
+          font-size: 7vw;
           color: #34b4e4;
           margin-bottom: 0;
           font-weight: 500;
           display: block;
           text-transform: capitalize;
-          letter-spacing: 20px;
+          letter-spacing: .4vw;
           overflow: hidden; }
           .single-hero-slide .hero-slides-content h1 span {
             position: absolute;
